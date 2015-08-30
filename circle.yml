@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 0.12.0
+
+dependencies:
+  pre:
+    - npm install -g npm@3.0-latest
+  cache_directories:
+    - node_modules
+  override:
+    # - rm -Rf node_modules
+    - npm prune && npm install --no-spin

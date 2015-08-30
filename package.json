@@ -1,0 +1,30 @@
+{
+  "name": "parse-json-object-as-map",
+  "version": "1.0.0",
+  "description": "JSON.parse but returns Map instead of Object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --es_staging --recursive --bail -u tdd tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophehurpeau/parse-json-object-as-map.git"
+  },
+  "keywords": [
+    "JSON.parse",
+    "map"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/parse-json-object-as-map/issues"
+  },
+  "homepage": "https://github.com/christophehurpeau/parse-json-object-as-map#readme",
+  "dependencies": {
+    "object2map": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "proclaim": "^3.3.1"
+  }
+}
