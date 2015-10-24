@@ -14,14 +14,14 @@ module.exports = function(text, reviver) {
         text,
         reviver !== undefined ?
             function(key, value) {
-                if (typeof value === 'object') {
+                if (typeof value === 'object' && !Array.isArray(value)) {
                     value = object2map(value);
                 }
 
                 return reviver(key, value);
             } :
             function(key, value) {
-                if (typeof value === 'object') {
+                if (typeof value === 'object' && !Array.isArray(value)) {
                     return object2map(value);
                 }
 
