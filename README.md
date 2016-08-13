@@ -1,7 +1,7 @@
 parse-json-object-as-map [![NPM version][npm-image]][npm-url] [![Build Status][build-status-image]][build-status-url]
 ============================
 
-Transform an Object to a Map
+JSON.parse but returns Map instead of Object
 
 ## Quick example
 
