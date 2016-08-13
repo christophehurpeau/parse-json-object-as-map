@@ -1,12 +1,9 @@
 machine:
   node:
-    version: iojs-v3.1.0
+    version: 6.3.0
 
 dependencies:
-  pre:
-    - npm install -g npm@3.0-latest
   cache_directories:
     - node_modules
   override:
-    # - rm -Rf node_modules
-    - npm prune && npm install --no-spin
+    - npm prune && npm install --no-progress
