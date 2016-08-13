@@ -1,6 +1,6 @@
 {
   "name": "parse-json-object-as-map",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON.parse but returns Map instead of Object",
   "main": "index.js",
   "scripts": {
