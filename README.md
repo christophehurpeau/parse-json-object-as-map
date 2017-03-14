@@ -1,6 +1,8 @@
 parse-json-object-as-map [![NPM version][npm-image]][npm-url] [![Build Status][build-status-image]][build-status-url]
 ============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/parse-json-object-as-map.svg)](https://greenkeeper.io/)
+
 JSON.parse but returns Map instead of Object
 
 ## Quick example
