@@ -24,7 +24,7 @@
     "object2map": "^1.0.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
+    "mocha": "^3.2.0",
     "proclaim": "^3.3.1"
   }
 }
