@@ -1,6 +1,6 @@
 {
   "name": "parse-json-object-as-map",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "JSON.parse but returns Map instead of Object",
   "keywords": ["JSON.parse", "map"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
