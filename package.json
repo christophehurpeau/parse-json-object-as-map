@@ -1,6 +1,6 @@
 {
   "name": "parse-json-object-as-map",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "JSON.parse but returns Map instead of Object",
   "keywords": [
     "JSON.parse",
